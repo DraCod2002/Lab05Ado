@@ -1,0 +1,55 @@
+﻿<Window x:Class="Lab05.CrearEmpleadoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Crear Empleado" Height="400" Width="350">
+    <ScrollViewer Margin="10">
+        <StackPanel>
+            <TextBlock Text="ID Empleado:" />
+            <TextBox x:Name="txtIdEmpleado" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Apellidos:" />
+            <TextBox x:Name="txtApellidos" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Nombre:" />
+            <TextBox x:Name="txtNombre" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Cargo:" />
+            <TextBox x:Name="txtCargo" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Tratamiento:" />
+            <TextBox x:Name="txtTratamiento" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Fecha de Nacimiento:" />
+            <DatePicker x:Name="dpFechaNacimiento" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Fecha de Contratación:" />
+            <DatePicker x:Name="dpFechaContratacion" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Dirección:" />
+            <TextBox x:Name="txtDireccion" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Ciudad:" />
+            <TextBox x:Name="txtCiudad" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Región:" />
+            <TextBox x:Name="txtRegion" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Código Postal:" />
+            <TextBox x:Name="txtCodigoPostal" Margin="0,0,0,10"/>
+
+            <TextBlock Text="País:" />
+            <TextBox x:Name="txtPais" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Teléfono Domicilio:" />
+            <TextBox x:Name="txtTelDomicilio" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Extensión:" />
+            <TextBox x:Name="txtExtension" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Notas:" />
+            <TextBox x:Name="txtNotas" TextWrapping="Wrap" Height="80" AcceptsReturn="True" Margin="0,0,0,10"/>
+
+            <Button Content="Guardar" Click="Button_Click" Margin="0,20,0,0" HorizontalAlignment="Right"/>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
